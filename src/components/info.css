@@ -1,0 +1,71 @@
+.profile-picture {
+  width: 317px;
+  max-height: 317px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px 10px 0 0;
+}
+
+.info-section {
+  text-align: center;
+  background-color: #1A1B21;
+  padding-bottom: 20px;
+}
+
+.info-name {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.info-title {
+  color: #F3BF99;
+  font-size: 12.8;
+  margin-top: -20px;
+}
+
+.info-web {
+  color: white;
+  font-size: 10.24px;
+  margin-bottom: 15px;
+}
+
+.info-icon {
+  width: 16px;
+}
+
+.info-btns {
+  display: flex;
+  justify-content: center;
+}
+
+.info-btn {
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: medium;
+  font-family: Inter, sans-serif;
+  width: 115px;
+  height: 34px;
+  filter: drop-shadow(0 4 4 #000000);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+.info-btns > a {
+  text-decoration: none;
+}
+
+.info-email-btn {
+  color: #374151;
+  background-color: white;
+  margin-right: 14px;
+}
+
+.info-linkedin-btn {
+  color: white;
+  background-color: #5093E2;
+}
