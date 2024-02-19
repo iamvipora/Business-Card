@@ -10,7 +10,7 @@ function Info() {
         <img src={profile} className="profile-picture" />
         <p className="info-name">John Henry Dizon</p>
         <p className="info-title">Frontend Developer</p>
-        <p className="info-web">henrydizon.website</p>
+        <p><a className="info-web" href="henrydizon.vercel.app">henrydizon.vercel.app</a></p>
         <div className="info-btns">
           <a href="mailto:henrydizon99@gmail.com">
             <button className="info-email-btn info-btn" id="info-email-btn"><img src={mail} className='info-icon'/><p>Email</p></button>
